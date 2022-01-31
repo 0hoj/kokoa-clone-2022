@@ -16,3 +16,20 @@
 .settings__setting__column:last-child {
   opacity: 0.5;
 }
+
+@keyframes updateAlarm {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.settings__setting .fa-info-circle {
+  color: tomato;
+  animation: updateAlarm 1s linear infinite;
+}
