@@ -13,4 +13,15 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+  position: relative;
+}
+
+.red-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  top: 50px;
+  right: 20px;
 }
